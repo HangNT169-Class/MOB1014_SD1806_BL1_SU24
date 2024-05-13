@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package B2_KieuDuLieu.P1_KieuDuLieu;
+package B2_KieuDuLieu.P2_NhapXuatDuLieu;
 
 import java.util.Scanner;
 
