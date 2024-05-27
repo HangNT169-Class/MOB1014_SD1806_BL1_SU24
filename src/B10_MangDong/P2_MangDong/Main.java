@@ -20,15 +20,15 @@ public class Main {
      */
     public static void main(String[] args) {
         // Khai bao mang so nguyen 
-        ArrayList<String> arr = new ArrayList<>();
-        System.out.println(arr.size()); // Lay size
-        arr.add("sfafg"); // Them gia tri vao trong mang 
-        arr.add("1243123");
-        arr.add("2341f");
-        System.out.println(arr.size());
-        arr.remove("12431asdf23"); // remove (doi tuong)
-        arr.remove(0); // remove(vi tri can xoa)
-        System.out.println("After" + arr.size());
+        ArrayList<String> listString = new ArrayList<>();
+        System.out.println(listString.size()); // Lay size
+        listString.add("sfafg"); // Them gia tri vao trong mang 
+        listString.add("1243123");
+        listString.add("2341f");
+        System.out.println(listString.size());
+        listString.remove("12431asdf23"); // remove (doi tuong)
+        listString.remove(0); // remove(vi tri can xoa)
+        System.out.println("After" + listString.size());
         // Cach in 
         // C1: for i
 //        for (int i = 0; i < a.size(); i++) {
@@ -36,7 +36,7 @@ public class Main {
 //            System.out.print(a.get(i)+" - ");
 //        }
         // C2: for each 
-        for (String str : arr) {
+        for (String str : listString) {
             // str = a.get(i)
             System.out.println(str);
         }
